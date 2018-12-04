@@ -1,0 +1,182 @@
+<!--Welcome to the source code! Feel free to check it out, it is all commented and clean!-->
+
+<!DOCTYPE html>
+ <html>
+   <head>
+    <title>Klaus Mana - Quality Web, Desktop Application and Design</title>
+     <!--Importing Google Icon Font-->
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Importing CSS files-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="css/home.css"/>
+     <link rel="icon" href="images\photo.jpg">
+
+     <!--Letting the browser know the website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   </head>
+
+   <body>
+     <!--Importing Javascript files-->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+     <script type="text/javascript" src="js/main.js"></script>
+
+     <!--Actual code for the page-->
+       <div class='row'>
+
+       <!--Portfolio-->
+       <div class='col s2 portfolio z-depth-2'>
+         <!--Top Text-->
+         <h1 class='portTxt'>Portfolio</h1>
+         <!--Portfolio Work-->
+         <a href='https://play.google.com/store/apps/details?id=com.FVG.LifeSim&hl=en' target='_blank'><div>
+           <img src='images\Portfolio\lifesim.png' class='portfolioImg z-depth-2 responsive-img'>
+           <p class='portCaption'>Life Simulator - Androind and iPhone Game</p>
+         </div></a>
+         <a href='https://codepen.io/KlausMana/full/wzaWpN/' target='_blank'><div>
+           <img src='images\Portfolio\yourquote.png' class='portfolioImg z-depth-2 responsive-img'>
+           <p class='portCaption'>YourQuote - Quote Generator</p>
+         </div></a>
+         <a href='https://codepen.io/KlausMana/full/RGPVJK/' target='_blank'><div>
+           <img src='images\Portfolio\weathercaster.png' class='portfolioImg z-depth-2 responsive-img'>
+           <p class='portCaption'>WeatherCaster - Weather App</p>
+         </div></a>
+         <a href='https://codepen.io/KlausMana/full/ozjAak/' target='_blank'><div>
+           <img src='images\Portfolio\wikisearch.png' class='portfolioImg z-depth-2 responsive-img'>
+           <p class='portCaption'>WikiSearch - Wikipedia Search Engine</p>
+         </div></a>
+         <a href='https://www.testdome.com/cert/fkte2vkp9c' target='_blank'><div>
+           <img src='images\Portfolio\testdome_html.png' class='portfolioImg z-depth-2 responsive-img'>
+           <p class='portCaption'>TestDome HTML/CSS - Top 10%</p>
+         </div></a>
+       </div>
+
+       <!--Page-->
+       <div class='col s9 page z-depth-2'>
+
+         <!--Bar in the top of the main screen-->
+         <div id='topBar' class='hidden z-depth-2'>
+           <div class='row'>
+             <div class='col s2'>
+               <h1 class='topBarMain hidden'>Klaus Mana</h1>
+             </div>
+             <div class='col s8'>
+               <p class='topBarSecondary hidden'>"Quality Web, Desktop Application and Design Service"</p>
+             </div>
+           </div>
+         </div>
+
+      <!-- Main Page after Toolbar-->
+      <div id='main'>
+
+      <!-- Description Text and Photo -->
+      <div id='description' class='row'>
+        <div class='col s6'>
+          <p id='descTxt'>My name is Klaus Mana, and I am a Programmer, Web Designer and Graphic Designer. I have been interested in computers from a young age which has lead to a passion for programming . I also love Graphic Design, which I have become skilled in over the last few years. I am ambitious, hard working and I always aim for perfection in everything that I do. I believe that every small detail is important, and as such always try to do my best in even the smallest of tasks.</p>
+        </div>
+        <div class='col s6'>
+          <img src='images\photo.jpg' id='descImg' class='z-depth-2 responsive-img circle'>
+        </div>
+      </div>
+      <ul id='skills'>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Bootstrap</li>
+        <li>Materialize</li>
+        <li>Graphic Design</li>
+      </ul>
+
+      <!-- Testimonials -->
+<div class='sliderstyle'>
+      <div class="slider">
+    <ul class="slides z-depth-2 img-responsive">
+      <li>
+        <div class='testimonial-div'>
+     <p class='testimonial'>"Klaus is an amazing motivated worker who delivers efficiently"</p>
+     <h4 class='testimonialName'>Martin Darazs</h4>
+     <p class='testimonialOccupation'>-Creator of BeePages</p>
+   </div>
+      </li>
+      <li>
+        <div class='testimonial-div'>
+     <p class='testimonial'>"Klaus is a fast working and dedicated artist. Working with him has been nothing but a pleasure."</p>
+     <h4 class='testimonialName'>Alfie Bawden</h4>
+     <p class='testimonialOccupation'>-Co-Artist on Life Simulator</p>
+   </div>
+      </li>
+      <li>
+        <div class='testimonial-div'>
+     <p class='testimonial'>"Klaus is an influential programmer with a great work ethic and has helped our project move forward."</p>
+     <h4 class='testimonialName'>Jenny Wang</h4>
+     <p class='testimonialOccupation'>-Executive Director, Code for Social Good</p>
+   </div>
+      </li>
+      <li>
+        <div class='testimonial-div'>
+     <p class='testimonial'>"Klaus is someone that you can not only depend on, but someone who becomes a friend and not just a business partner."</p>
+     <h4 class='testimonialName'>Evon Dionne</h4>
+     <p class='testimonialOccupation'>-Leader of Torn Line Studios</p>
+   </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+      <!--Timeline List of my work and achievements-->
+      <h4 id='listHeader'>A timeline of my work and achievements:</h4>
+      <ul id='timeline'>
+        <div class='card listDiv'>
+        <li class='listKey'>Interested in game development, I started my graphic design work at the age of 10.</li>
+        <li class='listNotKey'>I started off just out of passion for video games, which would soon turn into a passion for computers. I would use simple drag and drop engines like Game Maker: Studio to build simple games, and would make the sprites and animations myself. That is where I first got interested in game and graphic design.</li>
+      </div>
+
+      <div class='card listDiv'>
+        <li class='listKey'>Being curious and wanting to have more control over what I did, at the age of 13 I started learning Java.</li>
+        <li class='listNotKey'>I had sharpened my Graphic Design skills by then. Java was my first programming language, and I started learning it out of sheer curiosity. What I didn't know was that it would spark the love for programming and computers in me.</li>
+      </div>
+
+        <div class='card listDiv'>
+        <li class='listKey'>On the age of 14, I joined Frozen Vortex Games and participated in the development of Life Simulator, which accumulated over 2 million downloads.</li>
+        <li class='listNotKey'>This was probably one of the most crucial points in my life, as this success helped me define what I wanted to do in the future. The game is still accumulating more and more fans everyday.</li>
+      </div>
+
+        <div class='card listDiv'>
+        <li class='listKey'>When I was about to turn 16, I left Frozen Vortex Games to pursue web development.</li>
+        <li class='listNotKey'>Probably a really bold move, but I had already started learning more and more about web development, and it had really started sparking interest in me. I can now proudly say I am an expert at it, and it is what I hope to do for a living in the future.</li>
+      </div>
+
+        <div class='card listDiv'>
+        <li class='listKey'>I am now working on back-end development, among other technologies that captivate me</li>
+        <li class='listNotKey'>I am confident in my skills, but also confident I can sharpen them even further. I hope to expand my portfolio even more everyday. I really like the way my life has been going, and I couldn't have asked for more.</li>
+      </div>
+      </ul>
+       </div>
+
+     </div>
+
+       <!--Contacts-->
+       <div class='col s1 contacts z-depth-2'>
+            <a href='https://twitter.com/klaus_mana' target='_blank'><div class='contact'>
+              <img class='responsive-img circle z-depth-1' src='images\SocialMedia\twitter.jpg'>
+              <p class='contact-text'>Twitter</p>
+       </div></a>
+
+       <a href='mailto:klausmana@outlook.com' target='_blank'><div class='contact'>
+         <img class='responsive-img circle z-depth-1' src='images\SocialMedia\email.png'>
+         <p class='contact-text'>E-mail</p>
+  </div></a>
+
+  <a href='https://www.linkedin.com/in/klausmana/' target='_blank'><div class='contact'>
+    <img class='responsive-img circle z-depth-1' src='images\SocialMedia\linkedin.png'>
+    <p class='contact-text'>LinkedIn</p>
+</div></a>
+
+     </div>
+
+
+   </body>
+ </html>
